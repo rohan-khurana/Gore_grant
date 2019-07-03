@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/gradient_bg4"/>
+
+    <LinearLayout
+        android:id="@+id/verification_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="-50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/verification_cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="240dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#fff"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp">
+
+                    <com.firebase.ui.auth.ui.phone.CountryListSpinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/blood_grp"
+                        android:dropDownWidth="400dp"
+                        android:textColorHint="@color/colorWhite"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/country"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:gravity="center_vertical"
+                  />
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="true"
+                        android:layout_gravity="center_horizontal"
+
+                        >
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/city"
+                            android:layout_width="390dp"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/city"
+                            android:textColorHint="@color/colorWhite"
+                            android:inputType="text"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="true"
+                        android:layout_gravity="center_horizontal"
+                        >
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/age"
+                            android:layout_width="390dp"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/district"
+                            android:textColorHint="@color/colorWhite"
+                            android:inputType="number"/>
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="true"
+                        android:layout_gravity="center_horizontal"
+                        >
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/area"
+                            android:layout_width="390dp"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/pinCode"
+                            android:textColorHint="@color/colorWhite"
+                            android:inputType="number"/>
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <Spinner
+                        android:id="@+id/blood_grp"
+                        android:layout_width="390dp"
+                        android:layout_height="40dp"
+                        android:hint="@string/blood_grp"
+                        android:dropDownWidth="400dp"
+                        android:textColorHint="@color/colorWhite"
+                        android:inputType="text"/>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/details_button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/box_back_gradient_fill"
+            android:layout_gravity="center"
+            android:text="@string/submit"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:elevation="15dp"
+            android:enabled="false"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

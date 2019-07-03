@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Terms_and_conditions"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="@string/cond_1"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textAlignment="inherit"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="@string/cond_2"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textAlignment="inherit"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="@string/cond_3"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textAlignment="inherit"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="@string/cond_4"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textAlignment="inherit"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="@string/cond_5"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textAlignment="inherit"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="@string/cond_6"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textAlignment="inherit"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="@string/cond_7"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textAlignment="inherit"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:text="@string/cond_8"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textAlignment="inherit"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
