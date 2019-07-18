@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:padding="10dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile"
+         />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/profile_pic">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_layout_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_layout_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_edit_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_layout_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_layout_age">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_edit_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dob"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:layout_below="@+id/text_layout_dob"
+        android:id="@+id/text_layout_city"
+android:layout_marginTop="20dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/city"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/city"
+            android:textColorHint="@color/colorWhite"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:id="@+id/text_layout_district"
+        android:layout_below="@+id/text_layout_city"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/district"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/district"
+            android:textColorHint="@color/colorWhite"
+            android:inputType="number"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+      android:id="@+id/text_layout_pin_code"
+        android:layout_below="@+id/text_layout_district"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pin_code"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/pinCode"
+            android:textColorHint="@color/colorWhite"
+            android:inputType="number"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/gender_text"
+        android:layout_below="@+id/text_layout_pin_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="#2E2D2D"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_grp_gender"
+        android:layout_below="@+id/gender_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/gender_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="20sp"
+            android:textAlignment="inherit"
+            android:textColor="#2E2E2E"
+            />
+
+        <RadioButton
+            android:id="@+id/gender_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textSize="20sp"
+            android:textAlignment="inherit"
+            android:textColor="#2E2E2E"
+            android:layout_marginStart="20dp"
+            />
+
+        <RadioButton
+            android:id="@+id/gender_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/others"
+            android:textSize="20sp"
+            android:textAlignment="inherit"
+            android:textColor="#2E2E2E"
+            android:layout_marginStart="20dp"
+            />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/blood_grp"
+        android:layout_below="@+id/radio_grp_gender"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/blood_grp"
+        android:dropDownWidth="400dp"
+        android:textColorHint="@color/colorWhite"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        />
+
+    <Switch
+        android:id="@+id/available"
+        android:layout_below="@+id/blood_grp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:gravity="start"
+        android:text="@string/availability"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal|bold"
+        />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save"
+        android:textStyle="bold|normal"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/green_box"/>
+</RelativeLayout>
+</ScrollView>

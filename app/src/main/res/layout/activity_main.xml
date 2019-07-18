@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/main_layout"
-    android:background="@drawable/gradient_list">
+    android:background="@drawable/gradient_bg4">
 
     <ImageView
         android:contentDescription="@string/app_name"
@@ -19,23 +19,24 @@
 
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/text_app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
         android:layout_gravity="center"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:layout_marginTop="25dp"
         android:textColor="@color/colorWhite"
         android:fontFamily="@font/rambla_bold"/>
 
 
     <TextView
+        android:id="@+id/tag_line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_tag"
         android:textColor="@color/colorWhite"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:fontFamily="@font/rajdhani_medium"
         android:layout_marginTop="10dp"
         android:layout_gravity="center"

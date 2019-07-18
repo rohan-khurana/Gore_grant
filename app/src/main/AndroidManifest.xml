@@ -9,13 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Guidelines"></activity>
+        <activity android:name=".My_record_page"></activity>
+        <activity android:name=".Location" />
+        <activity android:name=".Details" />
+        <activity android:name=".ViewPager" />
+        <activity android:name=".Circle_loader" />
+        <activity android:name=".Content_front_page" />
+        <activity android:name=".Front_page" />
+        <activity android:name=".MyRecord" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Guidelines" />
         <activity android:name=".see_requests" />
         <activity android:name=".Settings" />
         <activity android:name=".Request" />
         <activity android:name=".Terms_and_conditions" />
         <activity android:name=".Terms" />
-        <activity android:name=".Bottom_nav" />
         <activity android:name=".Sign_up" />
         <activity android:name=".MainActivity">
             <intent-filter>

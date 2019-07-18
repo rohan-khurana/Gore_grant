@@ -7,25 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
-
-public class Sign_up extends AppCompatActivity {
-    Button b1,b2;
+public class Location extends AppCompatActivity {
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.activity_location);
 
-        b1=findViewById(R.id.button_sign_in);
+        button= findViewById(R.id.location_button);
 
-
-
-
-        b1.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(Sign_up.this, Front_page.class);
+                Intent intent = new Intent(Location.this, Front_page.class);
                 startActivity(intent);
             }
         });

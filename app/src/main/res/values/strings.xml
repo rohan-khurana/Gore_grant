@@ -4,10 +4,15 @@
     <string name="title_activity_sign_up_and__sign_in">Sign_up_and_Sign_in</string>
     <string name="sign_up">SIGN UP</string>
     <string name="sign_in">SIGN IN</string>
-    <string name="username">Username</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
     <string name="password">Password</string>
     <string name="confirm">Confirm Password</string>
     <string name="phone">Mobile No</string>
+    <string name="loading">Loading...</string>
     <string name="email">Email Id</string>
     <string name="submit">Submit</string>
     <string name="text_signIn">Already a member? Sign in</string>
@@ -36,9 +41,24 @@
     <string name="blood_grp_required">Blood Group Required: </string>
     <string name="blood_request_created_by">Blood Request created by: </string>
     <string name="donate_at">Donate At: </string>
+    <string name="donated_at">Donated At: </string>
     <string name="date">Date: </string>
     <string name="call">Call</string>
     <string name="report">Report</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="add_request">Add Request</string>
+    <string name="see_request">See Requests</string>
+    <string name="Guidelines">Guidelines</string>
+    <string name="my_record">My Record</string>
+    <string name="username">Username</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+    <string name="save">save</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
     <string name="over_all_health">1.Overall health</string>
     <string name="age_and_weight">2.Age and weight</string>
     <string name="pulse_rate">3.Pulse rate</string>
@@ -84,4 +104,7 @@
     <string name="cond_6">6. We does not claim that potential donors are free from any disease, ailment, or bodily conditions preventing them from donating blood at the time when they are contacted for blood donation. Onus is completely on the individual looking for blood to verify these details from the donor.</string>
     <string name="cond_7">7. We urge you not to make false registrations if you do not seriously wish to donate blood. It is a matter of life and death for those in need of blood in an emergency or otherwise.</string>
     <string name="cond_8">8. We reserves right to inactivate member at any given time in case found wrong information given or misuse of service</string>
+    <string name="pager1_1"> Over 1200 road crashes and around 500 million surgeries and operations every day require large quantities of blood daily.</string>
+    <string name="pager_2">Shortage of blood leads to poor maternal and infant mortality rate and affects health rate.</string>
+
 </resources>
