@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:id="@+id/main_layout"
     android:background="@drawable/gradient_bg4">
-
+<!--ImageView-->
     <ImageView
         android:contentDescription="@string/app_name"
         android:id="@+id/logo"
